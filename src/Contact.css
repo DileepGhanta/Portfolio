@@ -2,29 +2,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap:10px;
+    width: 100%;
 }
+
 
 input,textarea,.button{
     outline: none;
     background-color: none;
-    box-shadow: 0px 0px 10px #A22FFF;
+    box-shadow: 0px 0px 5px #A22FFF;
     background:none;
     border-radius: 8px;
-    width: 80%;
+    width: 100%;
     color: white;
     border: none;
+    font-size: 20px;
     padding: 10px;
 }
+
+label{
+    font-size: 20px;
+    align-self: flex-start;
+    font-weight: 500;
+}
+
 .Contact{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 form{
     backdrop-filter: blur(2px);
     min-height: 70vh;
-    width: 500px;
+    width: 400px;
     box-shadow: 0px 0px 20px #A22FFF;
     border-radius: 16px;
     display: flex;
@@ -32,4 +44,51 @@ form{
     align-items: center; 
     justify-content: space-evenly;
     color: white;
+}
+
+.inputs{
+    height: 25%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+}
+
+footer{
+    height: 10vh;
+    background-color: #0a0416;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.footer-items{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icons i{
+    /* color: #A22FFF; */
+    font-size: 24px;
 }
