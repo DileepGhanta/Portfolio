@@ -29,13 +29,13 @@ label{
 .Contact{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 form{
-    backdrop-filter: blur(100px);
-    min-height: 70vh;
+    /* backdrop-filter: blur(100px); */
+    min-height: 65vh;
     width: 400px;
     box-shadow: 0px 0px 20px #A22FFF;
     border-radius: 16px;
@@ -57,12 +57,9 @@ form{
 }
 
 footer{
-    height: 10vh;
+    height: 8vh;
     background-color: #0a0416;
     width: 100vw;
-    position: absolute;
-    bottom: 0;
-    z-index: 10;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -80,7 +77,7 @@ footer{
     align-items: center;
 }
 
-.icons{
+.socialMedia-icons{
     width: 100%;
     display: flex;
     align-items: center;
@@ -88,7 +85,20 @@ footer{
     gap: 30px;
 }
 
-/* .icons i{
-    color: #A22FFF;
+.socialMedia-icons i{
+    /* color: #A22FFF; */
     font-size: 24px;
-} */
+}
+
+.heading{
+    color: white;
+    height: 8vh;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading b{
+    color: #A22FFF;
+}

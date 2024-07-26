@@ -6,6 +6,9 @@ function Contact(){
     }
     return(
         <section className='Contact'>
+            <div className="heading">
+                <h1>Get in <b>Touch</b></h1>
+            </div>
             <form action="" onSubmit={handleSubmit}>
                 <div className='inputs'>
                     <label htmlFor="name">Name</label>
@@ -31,7 +34,7 @@ function Contact(){
                     <p>Copyright © 2024 Dileep Ghanta</p>
                 </div>
                 <div className="footer-items">
-                    <div className='icons'>
+                    <div className='socialMedia-icons'>
                         <a href="https://github.com/DileepGhanta"  target='_blank'>
                         <i className="fa-brands fa-github"></i>
                         </a>

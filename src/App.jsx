@@ -12,10 +12,10 @@ function App() {
     <>
       <Background />
       <div style={{ position: 'relative', zIndex: 1 }}>
-      {/* <NavBar /> */}
-      {/* <Home /> */}
+      <NavBar />
+      <Home />
       <Skills/>
-      {/* <Contact /> */}
+      <Contact />
       </div>
     </>
   )

@@ -1,25 +1,26 @@
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import './NavBar.css';
 function NavBar(){
     const [clicked, setClicked] = useState(false);
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //         const navbar = document.querySelector('.nav');
-    //         if (window.scrollY > 0) {
-    //             navbar.classList.add('scrolled');
-    //         } else {
-    //             navbar.classList.remove('scrolled');
-    //         }
-    //     };
+    const [isScrolled, setIsScrolled] = useState(false);
 
-    //     // window.addEventListener('scroll', handleScroll);
-
-    //     // return () => {
-    //     //     window.removeEventListener('scroll', handleScroll);
-    //     // };
-    // }, []);
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY > 50) { // Change 50 to the scroll distance you want
+          setIsScrolled(true);
+        } else {
+          setIsScrolled(false);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
     return (
-        <div className='nav'>
+        <div className={`nav ${isScrolled? "scrolled" :""}`}>
             {/* <div className="logo">
                 logo
             </div> */}
