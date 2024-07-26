@@ -10,13 +10,13 @@
 input,textarea,.button{
     outline: none;
     background-color: none;
-    box-shadow: 0px 0px 5px #A22FFF;
+    box-shadow: 0px 0px 8px #A22FFF;
     background:none;
     border-radius: 8px;
     width: 100%;
     color: white;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
 }
 
@@ -34,7 +34,7 @@ label{
     min-height: 100vh;
 }
 form{
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(100px);
     min-height: 70vh;
     width: 400px;
     box-shadow: 0px 0px 20px #A22FFF;
@@ -88,7 +88,7 @@ footer{
     gap: 30px;
 }
 
-.icons i{
-    /* color: #A22FFF; */
+/* .icons i{
+    color: #A22FFF;
     font-size: 24px;
-}
+} */
