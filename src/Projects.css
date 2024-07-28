@@ -1,0 +1,48 @@
+.Projects{
+    min-height: 90vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.project{
+    margin: 20px;
+    max-width: 70vw;
+    padding: 100px 50px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    /* background: rgba(255, 255, 255, 0.10); */
+}
+
+.project p{
+    max-width: 50%;
+    max-height: 300px;
+}
+
+.project-image{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.project-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    top{
+        opacity: 1;
+        scale: 1;
+    }
+}
