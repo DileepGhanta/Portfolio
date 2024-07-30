@@ -1,0 +1,28 @@
+.About{
+    height: 90vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 50px; */
+    /* box-sizing: border-box; */
+}
+
+.About-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 50vw;
+    height: 40vh;
+}
+.About-Content p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1cm;
+}
+.About-Image img{
+    height: 350px;
+    width: 500px;
+}
