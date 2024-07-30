@@ -1,6 +1,6 @@
 import './Home.css'
 function Home(){
-    return(
+    return( 
         <div id="Home">
             <div className="My-name">
                 <h1>Hi There!

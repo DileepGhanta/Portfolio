@@ -12,9 +12,9 @@
     font-family: "Raleway", sans-serif;
     font-size: 35px;
     font-weight: 100;   
-    animation: appear linear;
+    /* animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 40%; */
 }
 
 .Skill-icons{
@@ -60,7 +60,11 @@ b{
     /* font-size: 28px; */
 }
 
-@keyframes appear{
+.c-logo{
+    font-size: 48px;
+}
+
+/* @keyframes appear{
     from{
         opacity: 0;
         scale: 0.5;
@@ -69,4 +73,4 @@ b{
         opacity: 1;
         scale: 1;
     }
-}
+} */

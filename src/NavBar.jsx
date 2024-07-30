@@ -8,7 +8,7 @@ function NavBar(){
       const handleScroll = () => {
         if (window.scrollY > 50) { // Change 50 to the scroll distance you want
           setIsScrolled(true);
-        } else {
+        } else {  
           setIsScrolled(false);
         }
       };
