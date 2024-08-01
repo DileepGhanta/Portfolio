@@ -26,19 +26,19 @@ function NavBar(){
             </div> */}
             <div className="nav-items">
                 <div className="nav-item"> 
-                    <a href="/Home">Home</a>
+                    <a href="/">Home</a>
                 </div>
                 <div className="nav-item">
-                    <a href="#About">About</a>
+                    <a href="/About">About</a>
                 </div>
                 <div className="nav-item">
-                    <a href="#Projects">Projects</a>
+                    <a href="/Projects">Projects</a>
                 </div>
                 <div className="nav-item">
-                    <a href="#Skills">Skills</a>
+                    <a href="/Skills">Skills</a>
                 </div>
                 <div className="nav-item">
-                    <a href="#Contact">Contact</a>
+                    <a href="/Contact">Contact</a>
                 </div>
                 {/* <div className="nav-item" onClick={()=>{setClicked(!clicked)}}>
                     {clicked ? <i class="fa-solid fa-heart"  ></i>: <i class="fa-regular fa-heart" ></i> }

@@ -16,18 +16,18 @@ function App() {
       <Background />
       <div style={{ position: 'relative', zIndex: 1 }}>
       <NavBar />
-       {/* <Routes>
-        <Route path="/Home" element={<Home />} />
+       <Routes>
+        <Route path="/" element={<Home />} />
 				<Route path="/About" element={<About />} />
 				<Route path="/Projects" element={<Projects />} />
 				<Route path="/Skills" element={<Skills />} />
 				<Route path="/Contact" element={<Contact />} />
-       </Routes> */}
-      <Home />  
-      <About />
-      <Projects />
-      <Skills/> 
-      <Contact />
+       </Routes>
+      {/* <Home />   */}
+      {/* <About /> */}
+      {/* <Projects /> */}
+      {/* <Skills/>  */}
+      {/* <Contact /> */}
       </div>
     </>
   )

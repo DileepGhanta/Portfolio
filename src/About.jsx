@@ -8,6 +8,10 @@ function About(){
                 <div className="About-Data">
                     <p>Hi everyone! I'm a front-end developer, an ML enthusiast, and a computer science undergraduate. I am currently pursuing a Bachelor of Technology in Computer Science and Engineering at SRM University-AP, where I have consistently achieved excellent academic results.    
                     </p>
+                    <div className="">
+                        <p className='Quote'>"Be confident and consistent."</p>
+                        <p className='QuoteBy'>- Dileep Ghanta</p>
+                    </div>
                 </div>
             </div>
             <div className="About-Image">

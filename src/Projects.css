@@ -13,9 +13,9 @@
     height: 50vh;
     max-width: 70vw;
     padding: 80px 50px;
-    /* animation: appear linear;
+    animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%; */
+    animation-range: entry 0% cover 40%;
     background: rgba(255, 255, 255, 0.10);
 }
 
@@ -50,10 +50,10 @@
     /* gap: 10px; */
 }
 
-.project-heading{
-    /* margin: 50px; */
-}
-/* 
+/* .project-heading{
+    margin: 50px;
+} */
+
 @keyframes appear{
     from{
         opacity: 0;
@@ -63,4 +63,4 @@
         opacity: 1;
         scale: 1;
     }
-} */
+}
