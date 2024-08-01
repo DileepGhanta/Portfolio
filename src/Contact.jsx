@@ -5,7 +5,7 @@ function Contact(){
         e.preventDefault();
     }
     return(
-        <section className='Contact'>
+        <section id='Contact'>
             <div className="heading">
                 <h1>Get in <b>Touch</b></h1>
             </div>

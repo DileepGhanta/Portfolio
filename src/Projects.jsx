@@ -2,7 +2,7 @@ import './Projects.css'
 
 function Projects(){
     return(
-        <div className="Projects">
+        <div id="Projects">
             <div className="project-heading">
                 <h1>My Recent <b>Works</b></h1>
             </div>

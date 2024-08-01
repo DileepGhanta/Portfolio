@@ -3,7 +3,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 function Skills(){
     return(
-        <section className="Skills">
+        <section id="Skills">
             <div className="Skill-heading">
                 <h4>Professional <b>Skillset</b></h4> 
             </div>

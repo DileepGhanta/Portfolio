@@ -70,3 +70,7 @@ button:focus-visible {
   /* background-color: #000000; */
   background-color: #060817;
  }
+
+ html{
+  scroll-behavior: smooth;
+ }
