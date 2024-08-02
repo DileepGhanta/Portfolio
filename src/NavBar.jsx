@@ -1,4 +1,6 @@
+import React from 'react';
 import { useState,useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 import './NavBar.css';
 function NavBar(){
     const [clicked, setClicked] = useState(false);
@@ -26,23 +28,20 @@ function NavBar(){
             </div> */}
             <div className="nav-items">
                 <div className="nav-item"> 
-                    <a href="/">Home</a>
+                    <NavLink to="/" exact className={({ isActive }) => (isActive ? 'active-link' : '')}>Home</NavLink>
                 </div>
                 <div className="nav-item">
-                    <a href="/About">About</a>
+                    <NavLink to="/About" className={({ isActive }) => (isActive ? 'active-link' : '')}>About</NavLink>
                 </div>
                 <div className="nav-item">
-                    <a href="/Projects">Projects</a>
+                    <NavLink to="/Projects" className={({ isActive }) => (isActive ? 'active-link' : '')}>Projects</NavLink>
                 </div>
                 <div className="nav-item">
-                    <a href="/Skills">Skills</a>
+                    <NavLink to="/Skills" className={({ isActive }) => (isActive ? 'active-link' : '')}>Skills</NavLink>
                 </div>
                 <div className="nav-item">
-                    <a href="/Contact">Contact</a>
+                    <NavLink to="/Contact" className={({ isActive }) => (isActive ? 'active-link' : '')}>Contact</NavLink>
                 </div>
-                {/* <div className="nav-item" onClick={()=>{setClicked(!clicked)}}>
-                    {clicked ? <i class="fa-solid fa-heart"  ></i>: <i class="fa-regular fa-heart" ></i> }
-                </div> */}
            </div>
         </div>
     );

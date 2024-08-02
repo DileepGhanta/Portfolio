@@ -1,15 +1,14 @@
 .nav{
     display: flex;
-    /* justify-content: space-evenly; */
     align-items: center;
     height: 70px;
     position: sticky;
     top:0;
     backdrop-filter: blur(3px);
+    font-family: "Raleway", sans-serif;
 }
 
 .scrolled{
-    /* background: rgba(255, 255, 255, 0.10); */
     background-color: #1B1A2EA9;
 }
 
@@ -26,21 +25,15 @@
 }
 
 a{
-    /* position: relative; */
     transition: all 0.3s ease-out;
     text-decoration: none;
     color: white;
     padding: 5px;
-    /* color: #A22FFF; */
-    font-size: 20px;
+    font-size: 21Px;
     font-weight: 600;
     letter-spacing:0.03cm;
 }
 .nav-item{
-    /* background: linear-gradient(91deg, #FFF 4%, #A22FFF 40%); */
-    /* background-clip: text;
-    -webkit-background-clip: text ; 
-    -webkit-text-fill-color: transparent; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +63,10 @@ a:hover::after {
     color: #A22FFF;
 }
 
-.fa-heart{
-    font-size: 25px;
-    transition: all 0.3s ease-out;
+a.active-link{
+    color: #A22FFF;
+    font-size: 21Px;
+    font-weight: 600;
+    letter-spacing:0.03cm;
+    padding: 5px;
 }
