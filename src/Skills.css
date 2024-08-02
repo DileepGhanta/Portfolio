@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 #Skills{
     height: 90vh;
@@ -10,11 +10,11 @@
     justify-content: space-evenly;
     align-items: center;
     font-family: "Raleway", sans-serif;
-    font-size: 35px;
-    font-weight: 100;   
-    /* animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%; */
+    font-size: 24px;
+}
+
+.Skill-heading h1{
+    font-weight: 500;   
 }
 
 .Skill-icons{
@@ -51,26 +51,11 @@ svg{
     width: 60px;
 }
 
-/* h4{
-    display: inline;
-} */
-
-b{
+.Skill-heading h1 b{
     color: #A22FFF;
-    /* font-size: 28px; */
+    font-weight: 600;
 }
 
 .c-logo{
     font-size: 48px;
 }
-
-/* @keyframes appear{
-    from{
-        opacity: 0;
-        scale: 0.5;
-    }
-    top{
-        opacity: 1;
-        scale: 1;
-    }
-} */

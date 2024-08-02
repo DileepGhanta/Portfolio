@@ -28,7 +28,7 @@ function NavBar(){
             </div> */}
             <div className="nav-items">
                 <div className="nav-item"> 
-                    <NavLink to="/" exact className={({ isActive }) => (isActive ? 'active-link' : '')}>Home</NavLink>
+                    <NavLink to="/" className={({ isActive }) => (isActive ? 'active-link' : '')}>Home</NavLink>
                 </div>
                 <div className="nav-item">
                     <NavLink to="/About" className={({ isActive }) => (isActive ? 'active-link' : '')}>About</NavLink>

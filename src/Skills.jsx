@@ -5,7 +5,7 @@ function Skills(){
     return(
         <section id="Skills">
             <div className="Skill-heading">
-                <h4>Professional <b>Skillset</b></h4> 
+                <h1>Professional <b>Skillset</b></h1> 
             </div>
             <div className="Skill-icons">
                 <div className="icons">

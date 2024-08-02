@@ -4,12 +4,12 @@
     height: 70px;
     position: sticky;
     top:0;
-    backdrop-filter: blur(3px);
     font-family: "Raleway", sans-serif;
 }
 
 .scrolled{
     background-color: #1B1A2EA9;
+    backdrop-filter: blur(3px);
 }
 
 .logo{
@@ -61,12 +61,13 @@ a:hover::after {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
     color: #A22FFF;
+    font-weight: 700;
 }
 
 a.active-link{
     color: #A22FFF;
     font-size: 21Px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing:0.03cm;
     padding: 5px;
 }
