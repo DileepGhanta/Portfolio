@@ -1,4 +1,5 @@
 import './Home.css'
+import Avatar from './assets/Avatar.svg';
 function Home(){
     return( 
         <div id="Home">
@@ -14,7 +15,7 @@ function Home(){
                     </button>
             </div>
             <div className="My-avatar">
-                <img src="./src/assets/Avatar.svg" alt="" />
+                <img src={Avatar} alt="" />
             </div>
         </div>
     );

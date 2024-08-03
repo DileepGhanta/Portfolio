@@ -1,5 +1,5 @@
 import './About.css'
-
+import about from './assets/about.png';
 function About(){
     return(
         <div id="About">
@@ -15,7 +15,7 @@ function About(){
                 </div>
             </div>
             <div className="About-Image">
-                <img src="/about.png" alt="" />
+                <img src={about} alt="" />
             </div>
         </div>
     );
