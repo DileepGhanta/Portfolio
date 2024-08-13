@@ -7,6 +7,9 @@
     align-items: center;
     gap:40px;
     margin: 50px 0px;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    padding-bottom:100px; 
 }
 
 .project{
@@ -22,13 +25,15 @@
 .project p{
     max-width: 50%;
     max-height: 300px;
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
     font-weight: 300;
+    line-height: 1cm;
+    font-size: 23px;
 }
 
 .project h1{
+    font-size: 35px;
     color: #A22FFF;
+    font-weight: 600;
     margin: 20px 0px;
 }
 .project-image{
@@ -47,12 +52,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 10px; */
 }
 
-/* .project-heading{
-    margin: 50px;
-} */
+.project-heading h1{
+    font-weight: 500;
+}
+
+.project-heading h1 b{
+    font-weight: 600;
+    color: #A22FFF;
+}
+
+.right{
+    text-align: right;
+}
 
 @keyframes appear{
     from{

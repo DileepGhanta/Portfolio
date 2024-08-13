@@ -1,8 +1,34 @@
 import SendIcon from '@mui/icons-material/Send';
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2'
 import './Contact.css'
 function Contact(){
     const handleSubmit =(e)=>{
         e.preventDefault();
+        const form = e.target;
+        const name= form.name.value;
+        const msg = form.msg.value;
+        const templateParams = {
+            from_name: name,
+            message: msg,
+        };
+        console.log("email");
+        emailjs.send('service_lct5et2', 'template_0h5rr3o', templateParams, '-DXiVs_p97hZ-FORw')
+        .then( res =>{
+            Swal.fire({
+                title: "Email Sent Successfully",
+                icon: "success"
+              }).then(()=>{
+                form.reset();
+              })
+            }
+        )
+        .catch(err=>{
+            Swal.fire({
+                title: "Error Sending Email",
+                icon: "error"
+              });
+        })
     }
     return(
         <section id='Contact'>
