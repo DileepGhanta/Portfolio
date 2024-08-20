@@ -42,7 +42,7 @@ function NavBar(){
                 <div className="nav-item">
                     <NavLink to="/Contact" className={({ isActive }) => (isActive ? 'active-link' : '')}>Contact</NavLink>
                 </div>
-           </div>
+           </div>   
         </div>
     );
 }
