@@ -4,7 +4,7 @@ import Swal from 'sweetalert2'
 import './Contact.css'
 function Contact(){
     const handleSubmit =(e)=>{
-        e.preventDefault();
+        e.preventDefault();zz
         const form = e.target;
         const name= form.name.value;
         const msg = form.msg.value;
@@ -38,15 +38,15 @@ function Contact(){
             <form action="" onSubmit={handleSubmit}>
                 <div className='inputs'>
                     <label htmlFor="name">Name</label>
-                    <input type="text" id='name'/>
+                    <input type="text" id='name' required/>
                 </div>
                 <div className='inputs'>
                     <label htmlFor="email">Email</label>
-                    <input type="email" id='email'/>
+                    <input type="email" id='email' required/>
                 </div>
                 <div className='inputs'>
                     <label htmlFor="msg">Message</label>
-                    <textarea  id="msg" cols="30" rows="6"></textarea>
+                    <textarea  id="msg" cols="30" rows="6" required></textarea>
                 </div>
                 <div className='inputs'>
                     <button type="submit" className='button'>Send <SendIcon style={{ fontSize: 18 }}/></button>
