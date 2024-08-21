@@ -12,7 +12,6 @@ function Contact(){
             from_name: name,
             message: msg,
         };
-        console.log("email");
         emailjs.send('service_lct5et2', 'template_0h5rr3o', templateParams, '-DXiVs_p97hZ-FORw')
         .then( res =>{
             Swal.fire({
