@@ -4,7 +4,7 @@ import Swal from 'sweetalert2'
 import './Contact.css'
 function Contact(){
     const handleSubmit =(e)=>{
-        e.preventDefault();zz
+        e.preventDefault();
         const form = e.target;
         const name= form.name.value;
         const msg = form.msg.value;
